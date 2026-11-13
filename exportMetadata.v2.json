@@ -1,0 +1,171 @@
+{
+  "name" : "job-1794563938977",
+  "sourceOrgId" : "evtzUYWePMflcCc5Tj0tQw",
+  "sourceOrgName" : "TCCC",
+  "exportedObjects" : [ {
+    "objectGuid" : "6IRy1d1yHD8f9QqcbFmlgf",
+    "objectName" : "mct_m_ORC_DB_TO_FLT_FILE",
+    "objectType" : "MTT",
+    "path" : "/Explore/TEST_SOURCE/TEST_DB_TO_FLT_FILE",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DQFF0Z000000000004"
+      },
+      "objectRefs" : [ "1EQXu96buljh0WLzvQuh6H", "0d3dgm7LHBBf6Bu3CHKeMS", "6kkpO2edKojbRiDaEk3nSi", "bzB5BuNc7SgiSuxezOLSsY" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "1EQXu96buljh0WLzvQuh6H",
+    "objectName" : "JAFFARM_SEC_AGNT",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DQFF25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "0d3dgm7LHBBf6Bu3CHKeMS",
+    "objectName" : "OT_SRC_DEV",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DQFF0B000000000004"
+      },
+      "objectRefs" : [ "1EQXu96buljh0WLzvQuh6H" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "source_connections",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "1CgiEFXZAyLi0f07CXI3OA",
+    "objectName" : "TEST_DB_TO_FLT_FILE",
+    "objectType" : "Folder",
+    "path" : "/Explore/TEST_SOURCE",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "6kkpO2edKojbRiDaEk3nSi",
+    "objectName" : "m_ORC_DB_TO_FLT_FILE",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/TEST_SOURCE/TEST_DB_TO_FLT_FILE",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DQFF1700000000000A"
+      },
+      "objectRefs" : [ "0d3dgm7LHBBf6Bu3CHKeMS", "bzB5BuNc7SgiSuxezOLSsY" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "5CB6NUISyzwhBzO5MOedW4",
+    "objectName" : "TEST_SOURCE",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "bzB5BuNc7SgiSuxezOLSsY",
+    "objectName" : "OT_DEV_TARGET_FLATFILE",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DQFF0B000000000003"
+      },
+      "objectRefs" : [ "1EQXu96buljh0WLzvQuh6H" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "OT_DEV_FLATFILE",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}
